@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <table class="tbHeader">
+            <tr>
+                <td rowspan="2" width="150">
+                    <img src="../img/face.jpg" class="fotoPerfil" alt="Foto
+                            de perfil">
+                </td>
+                <td>
+                    <h1 class="nomeCompleto">
+                        Geraldo Frederico C Martins
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="profissao">
+                        Designer e Desenvolvedor Web
+                    </h2>
+                </td>
+                </td>
+        </table>
+        <table class="navHeader">
+            <tr>
+                <td>
+                    <a href="../index.html" class="navItem">
+                        Principal
+                    </a>
+                </td>
+                <td>
+                    <a href="../pages/quemsou.html" class="navItem">
+                        Quem sou
+                    </a>
+                </td>
+                <td>
+                    <a href="../pages/projetos.html" class="navItem">
+                        Projetos
+                    </a>
+                </td>
+                <td>
+                    <a href="../pages/contato.html" class="navItem
+                            navItemSelected">
+                        Contato
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <div class="conteudoPrincipal">
+        <table class="table1Contato">
+            <td>
+                <h2>
+                    Entre em contato!
+                </h2>
+                <p>
+                    Preencha todos os campos do formulário a seguir e em até
+                    48h lhe responderei. <br>
+                    Será um prazer lhe atender!
+                </p>
+            </td>
+        </table>
+        <table class="table2Contato">
+            <tr>
+                <td>
+                    <form action="#">
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="null">---Selecione---</option>
+                            <option value="Frontend">Frontend</option>
+                            <option value="Backend">Backend</option>
+                        </select><br><br>
+
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" name="nome" placeholder="Geraldo Frederico C Martins
+                                de Tal"><br><br>
+
+                        <label for="email">E-mail:</label><br>
+                        <input type="text" name="email" placeholder="fred_catherinck@hotmail.com"><br><br>
+
+                        <label for="telefone">Telefone</label><br>
+                        <input type="text" pattern="[0-9]{11}" name="telefone" placeholder="(28) 99961-6996"><br><br>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" cols="40" rows="7"></textarea><br><br>
+
+                        <input type="submit" class="submitBtn">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br><hr><br>
+
+                    <h2>
+                        Outras formas de contato:
+                    </h2>
+                    <p>
+                        Residente em Itapemirim/ES
+                    </p>
+                    <p>
+                        <a href="mailto:fulano@gmail.com">coelhopiuma@gmail.com</a>
+                    </p>
+                    <p>
+                    (28) 99961-6996
+                    </p>
+                    <p>
+                        <a href=https://www.linkedin.com/in/geraldo-frederico-catherinck-martins-4b970329/">LinkedIn</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>Copyright&#169; 2022</p><br>
+        <img src="../img/ifes.png" width="100px" alt="Imagem de Rodapé">
+    </footer>
+</body>
+
+</html>

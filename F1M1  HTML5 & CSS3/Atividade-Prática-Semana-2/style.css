@@ -1,0 +1,168 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100vh;
+}
+
+a:hover {
+  transition: 0.2s;
+  color: #10f0e8;
+  text-decoration: underline;
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  text-align: center;
+}
+
+body {
+  background: rgb(190, 199, 212);
+  background: linear-gradient(180deg, rgb(160, 162, 206) 0%, rgb(255, 255, 255) 100%);
+}
+
+/* Sessão do Cabeçalho */
+.tbHeader {
+  height: 15vh;
+  width: 100vw;
+  padding: 40px 10vw;
+  background: rgb(83, 74, 151);
+  background: linear-gradient(180deg, rgb(94, 83, 167) 0%, rgba(79, 79, 151, 0.2) 100%);
+}
+.fotoPerfil {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+}
+.nomeCompleto {
+  font-size: 45px;
+  margin-left: 20px;
+}
+.profissao {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+/* Navbar */
+.navHeader {
+  height: 5vh;
+  width: 100vw;
+  padding: 10px 20vw;
+  text-align: center;
+}
+.navItem {
+  font: 20px Verdana;
+  text-align: center;
+}
+.navItemSelected {
+  color: white;
+  background-color: #3f3788;
+  padding: 10px;
+  border-radius: 15px;
+}
+.navItem:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: #585763;
+  padding: 10px;
+  border-radius: 15px;
+}
+.navItemSelected:hover {
+  transition: 0.5s;
+  color: #5a548e;
+  background-color: #e7e7ec;
+}
+
+/* Conteúdo Pagina Principal */
+.conteudoPrincipal {
+  min-height: 59vh;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.caixaApresentacao {
+  background-color: #4132b4;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.textoDeApresentacao {
+  color: #e7e7ec;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nomeApresentacao {
+  color: antiquewhite;
+  font-size: 40px;
+}
+
+.imagemDeApresentacao {
+  width: 400px;
+  border-radius: 30px;
+}
+
+.textoApresentacao {
+  margin-top: 20px;
+  width: 755px;
+  border-spacing: 10px;
+}
+
+/* Conteúdo Pagina Contato */
+.table1Contato {
+  width: 600px;
+}
+
+.table2Contato {
+  margin-top: 50px;
+  width: 600px;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.submitBtn {
+  background-color: #5041c0;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* Conteúdo Página Projetos */
+.table1Projetos {
+  width: 600px;
+}
+
+.table2Projetos {
+  width: 600px;
+  margin-top: 20px;
+}
+
+.projetosImage {
+  width: 200px;
+  margin-top: 37px;
+  margin-right: 10px;
+}
+
+/* Conteúdo Página Quem Sou */
+.table1Quemsou {
+  width: 600px;
+}
+
+.table2Quemsou {
+  width: 600px;
+  margin-top: 20px;
+}

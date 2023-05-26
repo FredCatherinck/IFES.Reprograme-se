@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+   width: 100%;
+}
+
+hr{
+  margin: 15px 0 15px;
+}
+
+.menu ul,
+li {
+  max-width: 800px;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.menu ul,
+li {
+  display: inline;
+}
+
+.menu ul,
+li,
+a {
+  padding: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+
+} 
+
+.menu-contato {
+  display: block;
+  text-decoration: double;
+}
+
+
+img {
+  margin:20px;
+  width: 30%;
+}
+h3{
+  margin: 20px ;
+}
+h1{
+  margin: 20px;
+}
+h4{
+  margin: 20px;
+}
+
+.ifes{
+  width: 5%;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+ 
+}
+
+.perfil h1, h2, h3, p, progress{
+  margin-left: 20px;
+}
+.perfil h2{
+  margin: 15px;
+}
+.calend{
+  margin-left: 20px;
+
+}
+
+.informe{
+   margin-left: 30px;
+   font-weight: normal;
+
+}
