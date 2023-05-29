@@ -1,0 +1,111 @@
+<!-- Adaptação do arquivo index.html (5 pontos) -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <title>JavaScript - DOM - Prática da Semana 03</title>
+</head>
+
+<body class="p-3 m-0 border-0">
+
+  <h1 class="text-center">Sistema de Cadastro de Tapetes</h1>
+  <hr>
+
+  <form name="form1" action="#" method="POST" class="row g-3 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="tipo" class="form-label">Tipo</label>
+      <select id="tipo" class="form-select" required>
+        <option value="" disabled selected>Selecione o tipo</option>
+        <option value="Tapete sintético">Tapete sintético</option>
+        <option value="Tapete de polipropileno">Tapete de polipropileno</option>
+        <option value="Tapete de pelinho">Tapete de pelinho</option>
+        <option value="Tapete de algodão">Tapete de algodão</option>
+        <option value="Tapete de couro">Tapete de couro</option>
+        <option value="Tapete retangular">Tapete retangular</option>
+      </select>
+      <div class="invalid-feedback">Informe o tipo corretamente</div>
+    </div>
+      </div>
+   <div class="col-md-6">
+      <label for="Estilo" class="form-label">Estilo</label>
+      <select id="Estilo" class="form-select" required>
+        <option value="" disabled selected>Selecione o Estilo</option>
+        <option value="Tapete Shaggy">Tapete Shaggy</option>
+        <option value="Tapete Aubusson">Tapete Aubusson</option>
+        <option value="Tapete persa">Tapete persa</option>
+        <option value="Tapetes redondos">Tapetes redondos</option>
+      </select>
+      <div class="invalid-feedback">Informe o Estilo corretamente.</div>
+    </div>
+      </div>
+    <div class="col-md-6">
+      <label for="marca" class="form-label">Marca</label>
+      <input type="text" class="form-control" id="marca" placeholder="Santorini, Nevada, Venice" pattern="[a-zA-Z0-9]+"
+        required>
+      <div id="feedbackMarca" class="invalid-feedback">Informe a Marca corretamente.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="tamanho" class="form-label">Tamanho</label>
+      <select id="tamanho" class="form-select" required>
+        <option value="" disabled selected>Selecione o tamanho</option>
+        <option value="1,60 m por 0,50 m">1,60 m por 0,50 m</option>
+        <option value="1,00 m por 1,50 m">1,00 m por 1,50 m</option>
+        <option value="1,50 m por 1,50 m">1,50 m por 1,50 m</option>
+        <option value="1,50 m por 2,00 m">1,50 m por 2,00 m</option>
+        <option value="2,00 m por 2,00 m">2,00 m por 2,00 m</option>
+        <option value="2,00 m por 2,50 m">2,00 m por 2,50 m</option>
+        <option value="2,00 m por 3,00 m">2,00 m por 3,00 m</option>
+      </select>
+      <div class="invalid-feedback">Informe o tamanho corretamente.</div>
+    </div>
+      </div>
+    <div class="col-md-6">
+      <label for="tecido" class="form-label">Tecido</label>
+      <select id="tecido" class="form-select" required>
+        <option value="" disabled selected>Selecione o tecido</option>
+        <option value="Polipropileno">Polipropileno</option>
+        <option value="Lã">Lã</option>
+        <option value="Algodão">Algodão</option>
+        <option value="Nylon">Nylon</option>
+        <option value="Antron">Antron</option>
+      </select>
+      <div class="invalid-feedback">Informe o tecido corretamente.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="cor" class="form-label">Cor</label>
+      <input type="text" class="form-control" id="cor" required>
+      <div class="invalid-feedback">Informe a Cor corretamente.</div>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <input type="submit" class="btn btn-primary me-md-2" value="Inserir" id="btnInserir">
+    </div>
+  </form>
+
+  <hr>
+
+  <table class="table table-striped" id="tabela">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Estilo</th>
+        <th scope="col">Marca</th>
+        <th scope="col">Tamanho</th>
+        <th scope="col">Tecido</th>
+        <th scope="col">Cor</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+</body>
+
+</html>
